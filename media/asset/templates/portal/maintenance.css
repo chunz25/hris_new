@@ -1,0 +1,67 @@
+.center {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.north-layout {
+    min-height: 120px;
+}
+
+.north-layout .left-panel {
+    text-align: center;
+}
+
+.north-layout .right-panel {
+    padding-top: 40px;
+    font-size: 12px;
+}
+
+.center-layout {
+    height: 490px;
+}
+
+.center-layout .left-panel {}
+
+.center-layout .left-panel .panel-logo {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.center-layout .right-panel {}
+
+.center-layout .right-panel .form-login {
+    padding: 10px 10px 10px 10px;
+    margin-top: 25%;
+}
+
+.pesan {
+    line-height: 50px;
+    display: none;
+}
+
+.pesan-wait {
+    line-height: 50px;
+}
+
+.pesan-success {
+    line-height: 50px;
+    color: #1abb9c;
+}
+
+.pesan-failure {
+    line-height: 50px;
+    color: #c7254e;
+}
+
+.south-layout {
+    height: 40px;
+    text-align: center;
+}
+
+.span-footer {
+    color: #0E7BBE;
+    font-weight: bold;
+}

@@ -1,0 +1,89 @@
+/* Dashboard */
+.cont_home{
+	padding: 15px 5px 10px 5px;
+	display: inline-block;	
+}
+
+.div_btn_home{
+	border: 1px solid #dddddd;
+	background: #fafafa;
+	width: 100px;	
+	height: 100px;	
+	padding: 10px 10px 10px 10px;
+	margin: 5px 5px 5px 5px;
+	float: left;
+}
+.div_btn_home .div_img{
+	text-align: center;
+}
+.div_btn_home .div_img .ico_img{
+	font-size:30px;
+}
+.div_btn_home .div_desc{
+	text-align: center;
+	font-size: 12px;
+}
+
+.readtext{
+	border: none;
+	background: none;
+	-webkit-box-shadow: none;
+}
+/* End Dashboard */
+
+/* Pengajuan - Cuti */
+.div-checkbox{	
+	display:inline-block;
+    vertical-align: middle; 	
+}
+.div-checkbox .boxcheck{
+	width: 20px;
+	display:inline-block;
+    vertical-align: middle; 	
+}
+.div-checkbox .boxlabel{
+	margin-top:1px;
+	display:inline-block;
+    vertical-align: middle; 		
+}
+.div-checkbox .boxinput{
+	margin-top:1px;
+	display:inline-block;
+    vertical-align: middle; 		
+}
+
+.highlight_calender{
+   background-color : #d90036 !important;
+   color: #fff;
+}
+
+.title_desc{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: inherit;
+    color: #85879c;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5	
+}
+
+.readtext{
+	border: none;
+	background: none;
+	-webkit-box-shadow: none;
+}
+
+.input_xs {
+	height: 30px;
+	padding: 2px 5px;
+	font-size: 12px;
+	line-height: 1.5; /* If Placeholder of the input is moved up, rem/modify this. */
+}
+
+#id_gridpejabatpenetap .activated td{
+	background: rgba(38,185,154,.16);
+}
+
+/* End Pengajuan - Cuti */

@@ -1,0 +1,12 @@
+.tambah{
+	background: url(../../images/icon/add.png) right bottom no-repeat !important;
+}
+.ubah{
+	background: url(../../images/icon/pencil.png) right bottom no-repeat !important;	
+}
+.hapus{
+	background: url(../../images/icon/user_delete.png) right bottom no-repeat !important;	
+}
+.detail{
+	background: url(../../images/icon/edit.png) center no-repeat !important;
+}

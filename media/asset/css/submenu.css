@@ -1,0 +1,117 @@
+/* Setting Sub Menu */
+.menu_kehadiran{
+	background:#ffffff !important;
+	padding: 0 10px;
+	border-bottom: none !important;
+	border-left: none !important;
+	border-right: none !important;	
+}
+.menu_tunjangan{
+	background:#262262;
+	padding: 0 10px;
+	border-bottom: none !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+
+.menu_polakerja{
+	background:#262262;
+	padding: 0 10px;
+	border-bottom: none !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+
+.menu_izin{
+	background:#262262;
+	padding: 0 10px;
+}
+
+.menu_pegawai{
+	background:#262262;
+	padding: 0;
+}
+.menu_integrasi{
+	background:#262262;
+	padding: 0;
+}
+
+.menu_detail{
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(239,239,239,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(239,239,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(239,239,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+	border:none !important;
+	padding: 0;
+	color:black !important;
+}
+
+.menu_master{
+	background:#4D7ABD;
+	padding: 0 10px;
+}
+
+
+.menu .x-btn-inner{
+	color: #323750 !important;	
+}
+
+.menu .x-btn:hover .x-btn-inner, .active_sub_menu .x-btn-inner{
+	color: #fff !important;	
+}
+
+.menu .x-btn{
+	background:none;
+	height: 40px !important;
+	border: none;
+	padding:12px 5px; 
+}
+
+.menu .x-btn:hover{
+	background:#323750 !important;	
+}
+
+/* End Setting Sub Menu */
+
+
+.menu_detail .x-btn:hover .x-btn-inner{
+	color:#fff !important;	
+}
+
+.menu_detail .x-btn:hover{
+	background:#55aaa8 !important;	
+}
+
+.menu_detail .x-btn-inner{
+	color: #55aaa8;	
+}
+
+.menu_detail .x-btn{
+	background:none ;
+	border: none !important;
+	border-radius: 0 !important;
+	height: 40px !important;
+	padding:12px 5px; 
+	margin-left: -5px !important;
+}
+
+.active_sub_menu_detail {
+	background:#55aaa8 !important;
+	color:#fff !important;	
+}
+
+.active_sub_menu_detail .x-btn-inner{
+	color:#fff !important;	
+}
+
+
+.active_sub_menu {
+	background: #323750 !important;
+}
+
+.btn_left{
+	padding-left: 15px !important;	
+	margin-left: 10px !important;		
+}
+

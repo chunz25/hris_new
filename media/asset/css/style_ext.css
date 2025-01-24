@@ -1,0 +1,326 @@
+.x-panel-body-default{
+	border-color:#3892d3;
+	border:none;
+	color: #58585A !important;	
+}
+
+.x-mask {
+	 background: #8b8f93 none repeat scroll 0 0;
+}
+
+/* Bagian Header Panel */
+.x-panel-header-default{
+	background: #ffffff !important;		
+	border: 1px solid #c0c0c0;
+}
+.x-panel-header-default .x-panel-header-text-container-default{
+	color: #13203a;
+}
+/* Bagian Header Panel */
+
+/* Bagian Button */
+.x-btn-default-toolbar-small{
+	color: #fff !important;
+}
+
+
+/* Bagian Top Bar Default */
+.x-toolbar-docked-top{
+	background-color: transparent;
+	border:none;
+	color:#17b68e !important;
+}
+.x-toolbar-docked-top  .x-btn-default-toolbar-small{
+	background-image: none !important;
+	background-color: transparent;
+	color: #fff !important;
+	border:none;
+}
+.x-toolbar-docked-top  .x-form-item-label, .x-toolbar-docked-top  .x-toolbar-text{
+	color:#323750 !important;
+	font-weight: bold;
+}
+
+.x-toolbar-docked-top  .x-btn-inner{
+	color:#17b68e;	
+}
+
+.x-toolbar-docked-top  .x-btn-default-toolbar-small:hover{
+	background-image: none !important;
+	background-color: #17b68e !important ;	
+	border:none;
+}
+.x-toolbar-docked-top  .x-btn-default-toolbar-small:hover .x-btn-inner{
+	color:#ffffff;	
+}
+
+/* End Bagian Top Bar Default */
+
+.x-grid .x-toolbar-docked-bottom{
+	border: 1px solid #c0c0c0 !important;
+	/*background-color: #58585A;*/
+}
+.x-grid .x-toolbar-docked-bottom .x-toolbar-text{
+	color: #323750;
+}
+
+.x-column-header-inner .x-column-header-text{
+	white-space: normal;
+}
+
+.extra-alt .x-grid-row .x-grid-cell { 
+    background-color: #FFFFFF; 
+    color: #000; 
+	border:none;
+	font-size:11px;
+	height:12px;
+} 
+ 
+.extra-alt .x-grid-row-alt .x-grid-cell { 
+    background-color: #C9D3C9; 
+    color: #000; 
+	font-size:11px;
+	height:12px;
+	border:none;
+}
+
+.extra-alt .x-grid-row-selected  .x-grid-cell{ 
+    background-color: #d93600 !important; 
+	color: #000; 
+	border:none !important;
+	padding:0;
+	margin:0;
+}
+
+.x-splitter{
+	background-color: #eff0f0 !important;
+	border-color:#eff0f0 !important;	
+}
+
+.header_x{
+	background-color:#3892d3 !important;
+	border:none !important;
+}
+
+.header_x .x-docked-top{
+	background-color:#1c486e !important;
+	border:none !important;
+}
+
+
+.btn_pop {
+	background-image: none !important;
+	background-color: none ;
+	color:#355b7d !important ;
+	border:none;
+}
+.btn_pop:hover{
+	background-color: #062847 !important;
+	color:#fff ;
+}
+
+
+.btn_pop:hover .x-btn-inner{
+	color:#fff !important;
+}
+.btn_pop .x-btn-inner{
+	color:#355b7d !important;
+	font-size:14px;
+	font-weight:normal;
+}
+
+.header_menu .x-docked-top{
+	background-color:#eff0f0 !important;
+	border:none !important;
+}
+.header_menu .x-toolbar{
+	padding: 3px 0px 3px 8px;
+}
+
+
+.layout_master{
+	color: #ffffff !important;
+}
+.menu_master_toolbar {
+	background-color: #4388c8 !important;
+	padding: 3px 10px 3px 10px !important;	
+}
+
+.menu_master_toolbar.x-toolbar-docked-top .x-form-item-label{
+	color: #ffffff !important;
+}
+
+.menu_master_toolbar .x-btn{
+	padding: 5px 5px 5px 5px !important;
+}
+
+.header_submenu .x-docked-top{
+	background-color: #4388c8 !important;
+}
+.header_submenu .x-toolbar{
+	padding: 3px 0px 3px 8px;
+}
+.header_submenu .x-toolbar-docked-top .x-form-item-label, .x-toolbar-docked-top .x-toolbar-text{
+	color: #ffffff !important;
+}
+
+.active_sub_menu {
+	background: #062847 !important;
+}
+
+
+
+
+.x-column-header-inner{
+	background-color:#ffffff !important;
+	border-bottom: 1px solid #c0c0c0 !important;
+	color:#3f3e40 !important;
+	text-shadow:none !important;
+	font-weight:normal;
+	font-size:12px;
+	font-weight: bold;
+	padding: 15px 10px 15px 10px;
+}
+
+.x-column-header-checkbox{
+	border-right: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.x-tree-node-text{
+	font-weight:normal;
+	font-size:12px;
+}
+
+.x-panel-body-default{
+	color: #58585A !important;	
+}
+
+.x-column-header-trigger{
+	background-color:#B6B6B6 !important;
+}
+
+.x-field-form-focus,.x-form-trigger-wrap-focus{
+	border-color:#3892d3 !important;
+}
+.x-field-default-form-focus{
+	border-color:#3892d3;
+}
+.x-form-trigger-wrap-focus .x-form-trigger-wrap{
+	border-color:#3892d3 !important;
+}
+
+
+
+
+.x-column-header{
+	background-color: #58585a !important;
+}
+
+.x-form-item-label{
+	color: #58585A !important;
+}
+.x-fieldset-header-text {
+	color: #0072BC !important;
+	font-weight: bold !important;
+}
+
+.x-border-layout-ct {
+	background-color: #eff0f0 !important;
+}
+.x-panel-default-framed{
+	border-color: #eff0f0;
+}
+.x-panel-body-default-framed {
+	border-color: #eff0f0;
+}
+
+
+/* Bagian Windows */
+.x-window-default{
+	border-color: #fff !important;
+}
+.x-window-header-default{
+	border-color: #fff !important;
+	background-color: #fff;	
+	border-bottom: 1px solid #949599 !important;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.x-window-header-text-container-default{
+	color: #1f3e56;
+}
+.x-window-body-default{
+	border: none !important;
+}
+.x-toolbar-footer{
+	background: none;
+}
+.x-window-header-default .x-tool-img{
+	background-color: #949599;
+}
+
+
+/* Bagian button customize*/
+.btn_simpan{
+	background-color: #1f3e56;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn_simpan:hover{
+	background-color: #4dbd82;		
+}
+
+.btn_simpan .btn_simpan-inner{
+	color: #fff !important;
+	font-weight: bold;
+}
+.btn_simpan-inner:hover{
+	color: #404041 !important;
+}
+
+.btn_batal{
+	background-color: #d0d0d2;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+.btn_batal:hover{
+	background-color: #4dbd82;		
+}
+
+.btn_batal .btn_batal-inner{
+	color: #404041 !important;
+	font-weight: bold;
+}
+.btn_batal-inner:hover{
+	color: #404041 !important;
+}
+
+/* Bagian Datepicker */
+.x-datepicker-month .x-btn-inner{
+	color: #1f3e56;
+}
+
+
+
+.x-message-box .x-btn-default-small{
+	border: none !important;
+	background-color: #d0d0d2;
+	background-image: none;	
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+	cursor: pointer;
+}
+.x-message-box .x-btn-default-small:hover{
+	background-color: #4dbd82;		
+}
+.x-message-box .x-btn-default-small .x-btn-inner {
+	color: #fff;
+}

@@ -1,0 +1,236 @@
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: #ededed;
+}
+
+.header .div_center {
+    height: 60px;
+}
+
+.div_center .logoleft {
+    width: 150px;
+    float: left;
+}
+
+.div_center .logoleft img {
+    margin-top: -6px;
+    width: 65%;
+}
+
+.div_center .left {
+    width: 60%;
+    float: left;
+}
+
+.menudropdown {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.menudropdown>li {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 20px 5px 20px 5px;
+}
+
+.menudropdown>li .submenudropdown {
+    display: none;
+}
+
+.menudropdown>li a {
+    text-decoration: none;
+    color: #5a738e;
+    background: #ededed;
+    margin-left: 1px;
+}
+
+.menudropdown>li a:hover,
+.menudropdown>li .active {
+    border-bottom: 4px solid #F68A1D;
+    margin-top: 5px;
+    color: #5a738e;
+}
+
+.menudropdown li:hover .submenudropdown {
+    display: block;
+    position: absolute;
+    padding-left: 0px;
+}
+
+.menudropdown>li:hover>li {
+    float: none;
+    font-size: 14px;
+    width: 250px;
+}
+
+.menudropdown>li:hover a {
+    color: #5a738e;
+}
+
+.menudropdown>li:hover>li a:hover {
+    background: #0f3d8d;
+}
+
+.div_center .right {
+    float: right;
+}
+
+.eastmenu {
+    display: block;
+    background: #ededed;
+    list-style: none;
+    margin: 0;
+    padding-top: 7px;
+    float: left;
+}
+
+.eastmenu li {
+    float: left;
+    font: 13px helvetica;
+    font-weight: bold;
+    margin: 3px 0;
+}
+
+.eastmenu li a {
+    color: #5a738e;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.eastmenu li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.eastmenu .listuser {
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: right;
+}
+
+/*Notifikasi*/
+.eastmenu .notification {
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    /* Blue background */
+    color: #5a738e;
+    font-size: 16px;
+    /* Set a font size */
+    border: none;
+    /* Remove borders */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    border-bottom: 4px solid #F68A1D;
+    color: #5a738e;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    cursor: auto;
+    display: none;
+    position: fixed;
+    margin-top: 5px;
+    font-size: 12px;
+    background-color: #ededed;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 11px 16px;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.eastmenu>li .msg-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.badge {
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 7px;
+    padding: 6px 6px;
+    position: absolute;
+    left: 12px;
+    top: -15px;
+    border-radius: 50%;
+}
+
+.bg-green {
+    background: #F68A1D !important;
+    border: 1px solid #F68A1D !important;
+    color: #fff
+}
+
+/*End*/
+
+.header .div_bottom {
+    height: 35px;
+    background-color: #022d73;
+}
+
+.div_bottom .submenu {
+    list-style: none;
+    float: left;
+    margin-left: -35px;
+    margin-top: 3px;
+    display: none;
+}
+
+.submenu li {
+    min-width: 70px;
+    padding: 5px 5px 7px 5px;
+    float: left;
+    margin-left: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+.submenu>li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.submenu>li a:hover,
+.submenu>li .active {
+    border-bottom: 4px solid #F68A1D;
+    color: #fff;
+}

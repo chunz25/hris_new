@@ -1,0 +1,324 @@
+@import url(style_slider.css);
+@font-face {
+    font-family: myriadpro;
+    src: url("../fonts/MyriadPro-Regular.otf");
+}
+body{
+	font-size: 13px;
+	font-family: myriadpro;
+	color: #000000;
+	background-color: #f7f7f7;
+}
+h3{	color: #009344; }
+h4{	color: #009344; }
+p{ color: #696969; }
+
+/*=======================================================================================
+** Header
+**=====================================================================================*/
+.top_nav{
+	border: 1px solid #000;
+    display: block;
+    z-index: 2;	
+}
+
+.top_nav .nav>li>a:focus,
+.top_nav .nav>li>a:hover,
+.top_nav .nav .open>a,
+.top_nav .nav .open>a:focus,
+.top_nav .nav .open>a:hover {
+    background: #D9DEE4
+}
+
+.navbar-right {
+    margin-right: 0
+}
+
+.top_nav .navbar-right {
+    margin: 0;
+    width: 70%;
+    float: right
+}
+.top_nav .navbar-right li {
+    display: inline-block;
+    float: right;
+    position: static
+}
+
+.dropdown-menu.msg_list span {
+    white-space: normal
+}
+.dropdown-menu {
+    border: medium none;
+    box-shadow: none;
+    display: none;
+    float: left;
+    font-size: 12px;
+    left: 0;
+    list-style: none outside none;
+    padding: 0;
+    position: absolute;
+    text-shadow: none;
+    top: 100%;
+    z-index: 9998;
+    border: 1px solid #D9DEE4;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+.dropdown-menu>li>a {
+    color: #5A738E
+}
+.dropdown-menu a {
+    cursor: pointer
+}
+
+
+.top_nav .dropdown-menu li {
+    width: 100%
+}
+.top_nav .dropdown-menu li a {
+    width: 100%;
+    padding: 12px 20px;
+}
+.top_nav li a i {
+    font-size: 15px
+}
+@media (min-width: 480px) {
+    .top_nav .navbar-right li {
+        position: relative
+    }
+}
+@media (max-width: 991px) {
+    .top_nav {
+        width: 100%;
+        margin: 0
+    }	
+}
+
+.nav_menu {
+    float: left;
+    background: #EDEDED;
+    border-bottom: 1px solid #D9DEE4;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative
+}
+@media (min-width: 480px) {
+    .nav_menu {
+        position: static
+    }
+}
+
+.navbar-nav>li>a,
+.navbar-brand,
+.navbar-nav>li>a {
+    color: #fff !important
+}
+
+.navbar-brand,
+.navbar-nav>li>a {
+    font-weight: 500;
+    color: #ECF0F1 !important;
+    margin-left: 0 !important;
+}
+.nav.navbar-nav>li>a {
+    color: #515356 !important
+}
+.navbar-nav .open .dropdown-menu {
+    position: absolute;
+    background: #fff;
+    margin-top: 0;
+    border: 1px solid #D9DEE4;
+    -webkit-box-shadow: none;
+    right: 0;
+    left: auto;
+    width: 220px
+}
+
+ul.msg_list li {
+    background: #f7f7f7;
+    padding: 5px;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 6px 6px 0;
+    width: 96% !important
+}
+ul.msg_list li:last-child {
+    margin-bottom: 6px;
+    padding: 10px
+}
+ul.msg_list li a {
+    padding: 3px 5px !important
+}
+ul.msg_list li a .image img {
+    border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    float: left;
+    margin-right: 10px;
+    width: 11%
+}
+ul.msg_list li a .time {
+    font-size: 11px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    right: 35px
+}
+ul.msg_list li a .message {
+    display: block !important;
+    font-size: 11px
+}
+.dropdown-menu.msg_list span {
+    white-space: normal
+}
+
+.navbar-nav .open .dropdown-menu.msg_list {
+    width: 300px
+}
+.info-number .badge {
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 13px;
+    padding: 2px 6px;
+    position: absolute;
+    right: 2px;
+    top: 8px
+}
+.mail_list .badge {
+    padding: 3px 6px;
+    font-size: 8px;
+    background: #BAB7B7
+}
+.btn.btn-app>.badge {
+    position: absolute;
+    top: -3px;
+    right: -10px;
+    font-size: 10px;
+    font-weight: 400
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+    background: #169F85
+}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active,
+.btn-dark.active,
+.open .dropdown-toggle.btn-dark {
+    color: #FFFFFF;
+    background-color: #394D5F;
+    border-color: #394D5F
+}
+
+.pull-right {
+    margin: 10px 0
+}
+
+/*=======================================================================================
+** End Header
+**=====================================================================================*/
+
+
+/*=======================================================================================
+** Content Center
+**=====================================================================================*/
+.box-north{
+	margin-top: 50px;
+	min-height: 350px;
+	width: 100%;
+	text-align: center;	
+}
+.box-north .box-image{
+	margin-top: 50px;
+	margin-left: 50px;
+	display: inline-block;
+}
+.box-module{	
+	width: 100%;
+}
+.ul-box{
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	justify-content: center;
+	-webkit-justify-content: center;
+	list-style: none;
+}
+.ul-box li{
+    width: 130px;
+    height: 110px;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 1.4;
+    text-align: center;
+    background-color: #f9f9f9;
+	margin-left: 20px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);	
+}
+.ul-box .glyphicon {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 40px;
+	color: #fff;
+}
+.ul-box .glyphicon-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #fff;
+}
+.ul-box .icons{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 45px;
+	color: #fff;	
+}
+.ul-box .icons-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+	color: #fff;
+}
+.ul-box li:hover{
+    color: #fff;
+    background-color: #1ABB9C;		
+}
+
+.ul-box a:hover{
+	text-decoration: none;
+}
+
+.ul-box .green{
+	background-color: #1ABB9C;
+}
+.ul-box .orange{
+	background-color: #f7ad18;
+}
+.ul-box .blue{
+	background-color: #3498db;
+}
+.ul-box .red{
+	background-color: #e74c3c;
+}
+
+/*=======================================================================================
+** End Content Center
+**=====================================================================================*/
+
+
+/*=======================================================================================
+** Content Footer
+**=====================================================================================*/
+
+/*=======================================================================================
+** End Content Side Bar for Menu Account
+**=====================================================================================*/
+
+

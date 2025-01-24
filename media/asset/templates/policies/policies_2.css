@@ -1,0 +1,17 @@
+.div_filter {
+    float: left;
+}
+
+.div_filter .column1 {
+    padding: 5px 3px 5px 3px;
+    float: left;
+}
+
+.div_verifikasinotes {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#gridcontent .activated {
+    background: rgba(38, 185, 154, .16);
+}

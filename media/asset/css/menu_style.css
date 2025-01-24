@@ -1,0 +1,190 @@
+.menu_expand{
+	width:270px;
+	height: 100%;
+	position:fixed;
+	top:0;
+	right:0;
+	z-index:401;
+	background-color:#2f3f67;
+	padding: 0px 10px 10px 10px;
+	display: none;
+}
+
+.menu_ul {
+	width: 100%;
+	position:relative;
+	float:left;
+	list-style-type:none;
+	padding: 5px 5px 5px 5px;
+}
+
+.menu_ul li{
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	margin-top: 5px;
+	color: #fff;
+	background:#2f3f67 !important;
+	float: left;
+	line-height: 30px;
+}
+
+.menu_ul li a{
+	color: #fff;	
+}
+
+.menu_ul li:hover, .menu_ul .active{
+	background:#536cab !important;
+	color: #fff;
+}
+
+.menu_ul .icons_kehadiran{
+	background: url("../images/icon/kehadiran.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+	float: left;
+}
+
+.menu_ul .icons_izin{
+	background: url("../images/icon/izin.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+	float: left;
+}
+.menu_ul .icons_polakerja{
+	background: url("../images/icon/polakerja.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+	float: left;
+}
+.menu_ul .icons_pegawai{
+	background: url("../images/icon/pegawai.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+	float: left;
+}
+.menu_ul .icons_tunjangan{
+	background: url("../images/icon/tunjangan.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+	float: left;
+}
+.menu_ul .icons_master{
+	background: url("../images/icon/master.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+	float: left;
+}
+.menu_ul .icons_integrasi{
+	background: url("../images/icon/integrasi.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+	float: left;
+}
+.menu_ul .icons_logout{
+	background: url("../images/icon/logout.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+	float: left;
+}
+
+.menu_ul .menu_text{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+/* Bagian Menu Style 2 atau on right side */
+
+.menu2{
+	border: 1px solid #000;
+	background-color: #323750;
+	width: 100%;
+	height: 100%;	
+	padding: 3px;	
+}
+
+.ul_menu2{
+	width: 100%;
+	padding: 0px;
+	list-style-type:none;	
+	color: #ffffff;	
+}
+
+.ul_menu2 li{	
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+.ul_menu2 li a{
+	color: #ffffff;	
+	text-decoration: none;
+}
+
+.ul_menu2 li:hover, .ul_menu2 .active{
+	background:#55aaa8 !important;
+	color: #fff;
+}
+.icons_kehadiran2{
+	background: url("../images/icon/kehadiran.png") no-repeat; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+}
+.icons_izin2{
+	background: url("../images/icon/izin.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+}
+.icons_polakerja2{
+	background: url("../images/icon/polakerja.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+}
+.icons_pegawai2{
+	background: url("../images/icon/pegawai.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+}
+.icons_kinerja2{
+	background: url("../images/icon/kinerja.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+}
+.icons_tunjangan2{
+	background: url("../images/icon/tunjangan.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+}
+.icons_master2{
+	background: url("../images/icon/master.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+}
+.icons_integrasi2{
+	background: url("../images/icon/integrasi.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+}
+.icons_logout2{
+	background: url("../images/icon/logout.png") left top; 
+	width: 32px; 
+	height: 32px;
+	display: block;
+}

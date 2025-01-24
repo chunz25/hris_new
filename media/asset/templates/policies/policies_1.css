@@ -1,0 +1,38 @@
+.div-checkbox{	
+	display:inline-block;
+    vertical-align: middle; 	
+}
+.div-checkbox .boxcheck{
+	width: 20px;
+	display:inline-block;
+    vertical-align: middle; 	
+}
+.div-checkbox .boxlabel{
+	margin-top:1px;
+	display:inline-block;
+    vertical-align: middle; 		
+}
+.div-checkbox .boxinput{
+	margin-top:1px;
+	display:inline-block;
+    vertical-align: middle; 		
+}
+
+.highlight_calender{
+   background-color : #d90036 !important;
+   color: #fff;
+}
+
+#loading-image {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('<?php echo base_url(); ?>media/asset/images/loading-image.gif') 
+                50% 50% 
+                no-repeat;
+}

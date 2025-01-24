@@ -1,0 +1,34 @@
+a{
+	text-decoration: none;
+}
+body{
+}
+#header .x-toolbar-default {
+	/*background:#0072bc !important;*/
+	background-image:none !important;
+}
+
+.div-info{
+	border-bottom: 1px solid #b5b8c8;
+	padding: 5px 5px 5px 5px;
+	font-size: 12px;
+}
+.div-info .title{
+	font-size: 14px;
+	font-weight: bold;
+}
+.div-info .title a{
+	color: #000;
+}
+.div-news{
+	border-bottom: 1px solid #b5b8c8;
+	padding: 5px 5px 5px 5px;
+	font-size: 12px;
+}
+.div-news .title{
+	font-size: 14px;
+	font-weight: bold;
+}
+.div-news .title a{
+	color: #000;
+}
