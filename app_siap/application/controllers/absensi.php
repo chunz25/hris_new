@@ -19,7 +19,7 @@ class absensi extends SIAP_Controller {
 	}
 	
 	function getListAbsensi(){
-		$this->m_pegawai->addlogs();
+		// $this->m_pegawai->addlogs();
 		$count = ifunsetempty($_POST,'fingerid',null);
 		$length = substr_count($count ,",");
 
@@ -37,7 +37,7 @@ class absensi extends SIAP_Controller {
 	}
 	
 	function get_import_file(){
-		$this->m_pegawai->addlogs();
+		// $this->m_pegawai->addlogs();
 		try{
 			$template = $_FILES['dokumen']['tmp_name'];
 			
@@ -101,8 +101,9 @@ class absensi extends SIAP_Controller {
 			echo json_encode($result);
 		}	
 	}
+
 	function proses_import_file(){
-		$this->m_pegawai->addlogs();
+		// $this->m_pegawai->addlogs();
 		$params = array();
 		$params = json_decode($this->input->post('params'), true);
 
@@ -172,8 +173,8 @@ class absensi extends SIAP_Controller {
 		echo json_encode($result);
 	}	
 	
-	function cetakdokumen(){
-		$this->m_pegawai->addlogs();
+	function cetakdokumen(){	
+		// $this->m_pegawai->addlogs();
 		$params = array(
 			'v_tglmulai' => ifunsetemptybase64($_GET,'tglmulai',null),
 			'v_tglselesai' => ifunsetemptybase64($_GET,'tglselesai',null),
@@ -203,4 +204,6 @@ class absensi extends SIAP_Controller {
 			$TBS->Show(OPENTBS_DOWNLOAD, $file_name);
 		}	
 	}
+
+	
 }

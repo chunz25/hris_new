@@ -122,6 +122,7 @@
 			var halkehadiran = '<li><a href="#kehadiran">Kehadiran</a></li>';
 			var halreport = '<li><a href="#report">Report</a></li>';
 			var halmaster = '<li><a href="#master&MasterUnit">Master</a></li>';
+			var halatt = '<li><a href="#attendance">Attendance</a></li>';
 
 			var halunit = '<li><a href="#master&MasterUnit">Unit</a></li>';
 			var haljabatan = '<li><a href="#master&MasterJabatan">Jabatan</a></li>';
@@ -154,6 +155,7 @@
 							halkehadiran +
 							halreport +
 							halmaster +
+							halatt +
 							'</ul>' +
 							'</div>' +
 							'<div class="right">' +
